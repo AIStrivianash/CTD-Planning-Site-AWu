@@ -11,6 +11,10 @@
 	width:59px;
 	height:59px;
 	z-index:1;
+	border-top-color: #0CF;
+	border-right-color: #0CF;
+	border-bottom-color: #0CF;
+	border-left-color: #0CF;
 }
 #apDiv2 {
 	position:absolute;
@@ -27,6 +31,10 @@
 	width:959px;
 	height:41px;
 	z-index:3;
+	font-size: 24px;
+	margin-right: 5px;
+	float: right;
+	font-family: "Avenir Roman";
 }
 #apDiv4 {
 	position:absolute;
@@ -35,6 +43,7 @@
 	width:959px;
 	height:70px;
 	z-index:4;
+	font-family: "Avenir Roman";
 }
 #apDiv5 {
 	position:absolute;
@@ -59,18 +68,92 @@
 	width:314px;
 	height:201px;
 	z-index:7;
+	background-color: #900;
+	color: #FFF;
+	font-family: "Avenir Roman";
+}
+#apDiv5 #navList {
+	list-style-type: none;
+	margin-top: 0px;
+	/* [disabled]padding-right: 0px; */
+	/* [disabled]border-bottom-width: 5px; */
+	/* [disabled]margin-right: 0px; */
+	/* [disabled]vertical-align: super; */
+	background-color: #0064FA;
+	color: #FFF;
+	font-family: "Avenir Roman";
+}
+#apDiv5 #navList #SignUp {
+	font-size: 24px;
+	color: #000;
+	background-color: #FFF;
+	margin-left: 0px;
+}
+#apDiv6 {
+	margin-top: 0px;
+	list-style-type: none;
+	background-color: #06F;
+	color: #FFF;
+	font-family: "Avenir Roman";
+}
+#apDiv6 #ContactList {
+	font-size: 24px;
+	background-color: #FFF;
+	color: #000;
+}
+#apDiv2 {
+	text-align: center;
+	vertical-align: baseline;
+	white-space: normal;
+	font-size: 45px;
+	color: #FFF;
+	font-family: "Avenir Roman";
+}
+#apDiv7 ul #News {
+	font-size: 24px;
+	list-style-type: none;
+	margin-top: 0px;
+	color: #FFF;
+}
+#apDiv4 #description {
+	margin-top: 7px;
+	margin-left: 10px;
+	color: #FFF;
+}
+#apDiv4 #HeadofDescipt {
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #00C;
+}
+.logo {
+	top: 20px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+#background {
+	color: #0CF;
+	background-color: #0CF;
+	height: 800px;
+	width: 1000px;
 }
 </style>
 </head>
 
 <body>
-<div id="apDiv1"></div>
-<div id="apDiv2"></div>
-<div id="apDiv3"></div>
-<div id="apDiv4"></div>
+<div id="background"></div>
+<div id="apDiv1"><img src="../ais.png" width="59" height="59" alt="Logo" /></div>
+<div id="apDiv2">AIS Needs You!</div>
+<div id="apDiv3">Home</div>
+<div id="apDiv4">
+<p id="HeadofDescipt">How do you help?</p>
+<p id="description">Click on any event you want to help out in, and sign up! Enter name, email or phone number. If there are any problems, please refer to the contact list. Any upcoming news, please refer to <em><strong>News</strong></em>.</p>
+</div>
 <div id="apDiv5">
- <ul>
-  <li>Sign Up!</li>
+ <ul id="navList">
+  <li id="SignUp">Sign Up!</li>
   <li>Clean Up</li>
   <li>Set Up</li>
   <li>Preparation</li>
@@ -78,9 +161,24 @@
   <li>Decorations</li>
   <li>Executives</li>
   <li>Donations</li>
+  <li></li>
  </ul>
 </div>
-<div id="apDiv6"></div>
-<div id="apDiv7"></div>
+<div>
+  <ul id="apDiv6">
+  	<li id="ContactList">Contact List</li>
+  	<li>123@ais.edu.hk</li>
+    <li>234@ais.edu.hk</li>
+    <li>9878 6543</li>
+    <li>2345 6789</li>
+  </ul>
+</div>
+<div id="apDiv7">
+	<ul>
+    	<li id="News">News</li>
+  		<li>Donations must be in by ...</li>
+  		<li>Sign ups will be over on ...</li>
+  </ul>
+</div>
 </body>
 </html>
