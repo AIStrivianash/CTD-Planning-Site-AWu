@@ -44,24 +44,24 @@
 	position:absolute;
 	left:30px;
 	top:244px;
-	width:535px;
-	height:149px;
+	width:579px;
+	height:317px;
 	z-index:5;
 }
 #apDiv6 {
 	position:absolute;
-	left:614px;
-	top:228px;
-	width:304px;
-	height:84px;
+	left:642px;
+	top:242px;
+	width:339px;
+	height:133px;
 	z-index:6;
 }
 #apDiv7 {
 	position:absolute;
-	left:615px;
-	top:313px;
-	width:283px;
-	height:66px;
+	left:643px;
+	top:383px;
+	width:339px;
+	height:173px;
 	z-index:7;
 }
 </style>
