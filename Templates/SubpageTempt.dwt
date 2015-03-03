@@ -77,11 +77,14 @@
 }
 #apDiv8 {
 	position:absolute;
-	left:114px;
-	top:90px;
+	left:92px;
+	top:88px;
 	width:256px;
 	height:29px;
 	z-index:8;
+}
+.editRegion6 {
+	vertical-align: top;
 }
 </style>
 </head>
