@@ -10,29 +10,30 @@
 <style type="text/css">
 #apDiv1 {
 	position:absolute;
-	left:299px;
+	left:-1px;
 	top:9px;
-	width:537px;
+	width:1024px;
 	height:58px;
 	z-index:1;
 	font-family: "Avenir Roman";
 	font-size: 36px;
 	text-align: center;
+	background-color: #3F6;
 }
 #apDiv2 {
 	position:absolute;
-	left:24px;
-	top:89px;
-	width:595px;
-	height:48px;
+	left:170px;
+	top:81px;
+	width:711px;
+	height:66px;
 	z-index:2;
 }
 #apDiv3 {
 	position:absolute;
 	left:53px;
-	top:11px;
-	width:64px;
-	height:63px;
+	top:10px;
+	width:62px;
+	height:58px;
 	z-index:3;
 }
 #apDiv4 {
@@ -78,7 +79,7 @@
     </tr>
   </table>
 </div>
-<div id="apDiv3"></div>
+<div id="apDiv3"><img src="../smiley.png" width="64" height="54" /></div>
 <!-- TemplateBeginEditable name="EditRegion4" -->
 <div id="apDiv4"></div>
 <!-- TemplateEndEditable -->
